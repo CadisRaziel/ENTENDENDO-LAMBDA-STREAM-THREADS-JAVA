@@ -16,6 +16,8 @@ public class EssentialApplication {
     public static void main(String[] args) {
 
         SpringApplication.run(EssentialApplication.class, args);
+		List<Cliente> clienteList = new ArrayList<>();
+		Cliente cliente = new Cliente();
 
 		//LAMBDA
 		//implementação tradicional para apresentar todos os nomes dos clientes
